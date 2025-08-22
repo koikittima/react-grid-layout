@@ -15,10 +15,12 @@ export const AuthProvider = ({ children }) => {
     if (userDetails && username.password === userDetails.password) {
       username.rowAction = userDetails.rowAction;
       setUser(username);
-      setIsLoggedIn(true);
+      setIsLoggedIn(true);      
     } else {
       setUser(null);
       setIsLoggedIn(false);
+      console.log('ww');
+      
     }
   };
 
