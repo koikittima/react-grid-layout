@@ -19,6 +19,8 @@ export const AuthProvider = ({ children }) => {
     } else {
       setUser(null);
       setIsLoggedIn(false);
+      console.log('ww');
+      
     }
   };
 
