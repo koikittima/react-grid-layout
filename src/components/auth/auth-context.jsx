@@ -18,9 +18,7 @@ export const AuthProvider = ({ children }) => {
       setIsLoggedIn(true);      
     } else {
       setUser(null);
-      setIsLoggedIn(false);
-      console.log('ww');
-      
+      setIsLoggedIn(false);      
     }
   };
 
