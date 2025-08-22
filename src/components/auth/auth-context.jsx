@@ -15,9 +15,7 @@ export const AuthProvider = ({ children }) => {
     if (userDetails && username.password === userDetails.password) {
       username.rowAction = userDetails.rowAction;
       setUser(username);
-      setIsLoggedIn(true);
-      console.log('99999');
-      
+      setIsLoggedIn(true);      
     } else {
       setUser(null);
       setIsLoggedIn(false);
