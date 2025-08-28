@@ -1,8 +1,8 @@
 import React, { useState, useRef, useEffect } from "react";
 import { useNavigate } from "react-router-dom";
-import { useAuth } from "../components/auth/useAuth";
+import { useAuth } from "./useAuth";
 import { TextField, Button, Typography, Box } from "@mui/material";
-import symphonyImg from "../assets/images/BGlogin.jpg";
+import symphonyImg from "./../../assets/images/BGlogin.jpg";
 
 
 const LoginForm = () => {
